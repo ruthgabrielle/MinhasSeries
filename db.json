@@ -1,0 +1,23 @@
+{
+  "series": {
+    "1616094618498": {
+      "name": "Friends",
+      "poster": "//image.tmdb.org/t/p/original/f496cm9enuEsZkSPzCwnTESEK5s.jpg",
+      "background": "//image.tmdb.org/t/p/original/l0qVZIpXtIo7km9u5Yqh0nKPOr5.jpg"
+    },
+    "1616094629846": {
+      "name": "HIMYM",
+      "poster": "//image.tmdb.org/t/p/original/578tlvbrpFwc959bQTT93W2RYA.jpg",
+      "background": "//image.tmdb.org/t/p/original/5BMwFwNzSidVYArn561acqtktxv.jpg"
+    }
+  },
+  "genres": {
+    "1": {
+      "name": "Ação"
+    },
+    "2": {
+      "name": "Comédia"
+    }
+  },
+  "count": 0
+}
