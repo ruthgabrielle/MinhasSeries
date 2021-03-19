@@ -10,15 +10,19 @@
     "bootstrap": "^4.6.0",
     "is-path-inside": "^3.0.3",
     "minhas-series-server": "https://github.com/tuliofaria/minhas-series-server",
+    "npm": "^7.6.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "reactstrap": "^8.9.0",
+    "run-all": "^1.0.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm-run-all build start-server",
+    "start-react": "react-scripts start",
+    "start-server": "node ./node_modules/minhas-series-server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

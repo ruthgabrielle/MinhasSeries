@@ -1,11 +1,12 @@
-import React, { useState, useEffect }from 'react';
+import React from 'react';
 import Header from './Header';
 import Genders from './Genders';
 import EditarGenero from './EditarGenero';
+import NovoGenero from './NovoGenero';
 import Series from './Series';
 import NovaSerie from './NovaSerie';
-import NovoGenero from './NovoGenero';
 import InfoSerie from './InfoSerie';
+
 import {
   BrowserRouter as Router,
   Route, 
@@ -13,13 +14,12 @@ import {
 } from 'react-router-dom'
 
 
+
 const Home = () => {
   return <h1> Home</h1>
 }
 
 function App() {
-  const [data, setData] = useState({})
-
   
   return (
     <Router>

@@ -1,14 +1,29 @@
 {
   "series": {
-    "1616094618498": {
-      "name": "Friends",
-      "poster": "//image.tmdb.org/t/p/original/f496cm9enuEsZkSPzCwnTESEK5s.jpg",
-      "background": "//image.tmdb.org/t/p/original/l0qVZIpXtIo7km9u5Yqh0nKPOr5.jpg"
+    "1616163726315": {
+      "name": "Teste",
+      "poster": "//image.tmdb.org/t/p/original/9qyZHScJNg0RMUYUSZSmx3G1O5I.jpg",
+      "background": "//image.tmdb.org/t/p/originalnull"
     },
-    "1616094629846": {
-      "name": "HIMYM",
-      "poster": "//image.tmdb.org/t/p/original/578tlvbrpFwc959bQTT93W2RYA.jpg",
-      "background": "//image.tmdb.org/t/p/original/5BMwFwNzSidVYArn561acqtktxv.jpg"
+    "1616174555439": {
+      "name": "tESTE 232",
+      "poster": "",
+      "background": ""
+    },
+    "1616174556117": {
+      "name": "tESTE 232",
+      "poster": "",
+      "background": ""
+    },
+    "1616179336676": {
+      "genre_id": "",
+      "poster": "//image.tmdb.org/t/p/original/nmDqvEL5tqbjhbUEFSCQlZnXock.jpg",
+      "background": "//image.tmdb.org/t/p/originalnull"
+    },
+    "1616179739246": {
+      "genre_id": "",
+      "poster": "//image.tmdb.org/t/p/original/nmDqvEL5tqbjhbUEFSCQlZnXock.jpg",
+      "background": "//image.tmdb.org/t/p/originalnull"
     }
   },
   "genres": {

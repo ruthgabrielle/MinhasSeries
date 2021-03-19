@@ -15,7 +15,7 @@ const Series = () => {
         })
     }, [])
 
-    const deleteGenero = id => {
+    const deleteSerie = id => {
         axios
             .delete('/api/series/' + id)
             .then(res => {
@@ -30,8 +30,9 @@ const Series = () => {
                 <th scope='row'>{record.id}</th>
                 <td>{record.name}</td>
                 <td>
-                    <button className='btn btn-danger' onClick={() => deleteGenero(record.id)}> Remover </button>
+                    <button className='btn btn-danger' onClick={() => deleteSerie(record.id)}> Remover </button>
                     <Link to={'/series/' + record.id} className='btn btn-primary'> Info </Link>
+
                 </td>
 
             </tr>
@@ -41,12 +42,12 @@ const Series = () => {
     if(data.length === 0) {
         return (
             <div className='container'>
-                <h1> Genênos </h1>
+                <h1> Séries </h1>
                 <div>
-                <Link to='/series/novo' className='btn btn-primary'> Nova Série</Link>
+                <Link to='/series/novo' className='btn btn-primary'> Nova Série </Link>
                 </div>
                 <div className='alert alert-warning' role='alert'>
-                    Você não possui séries cadastradas ainda.
+                    Você não possui séries criadas ainda.
                 </div>
             </div>
         )
@@ -64,7 +65,6 @@ const Series = () => {
                     <th scope='col'>ID</th>
                     <th scope='col'>NOME</th>
                     <th scope='col'>AÇÕES</th>
-
                     </tr>
                 </thead>
                 <tbody>
